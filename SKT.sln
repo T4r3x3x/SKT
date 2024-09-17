@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKT.Avalonia", "SKT.Avalonia\SKT.Avalonia.csproj", "{160088F9-0519-465F-A7EB-CF4E4F9CECE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKT.Core", "SKT.Core\SKT.Core.csproj", "{2FD5B483-4AD2-4130-871D-23CAFF0380AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{160088F9-0519-465F-A7EB-CF4E4F9CECE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{160088F9-0519-465F-A7EB-CF4E4F9CECE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{160088F9-0519-465F-A7EB-CF4E4F9CECE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{160088F9-0519-465F-A7EB-CF4E4F9CECE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FD5B483-4AD2-4130-871D-23CAFF0380AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FD5B483-4AD2-4130-871D-23CAFF0380AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FD5B483-4AD2-4130-871D-23CAFF0380AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FD5B483-4AD2-4130-871D-23CAFF0380AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
