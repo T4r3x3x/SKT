@@ -1,8 +1,10 @@
-﻿namespace SKT.ViewModels;
+﻿using ScottPlot.Avalonia;
 
-public partial class MainWindowViewModel : ViewModelBase
+namespace SKT.Pages.Main
 {
-#pragma warning disable CA1822 // Mark members as static
-    public string Greeting => "Welcome to Avalonia!";
-#pragma warning restore CA1822 // Mark members as static
+    public class MainWindowViewModel : ViewModelBase
+    {
+
+        public AvaPlot Plot { get; }
+    }
 }

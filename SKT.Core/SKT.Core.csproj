@@ -6,4 +6,10 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+        <PackageReference Include="Avalonia.ReactiveUI" Version="11.2.0-beta2"/>
+        <PackageReference Include="OxyPlot.Avalonia" Version="2.1.0"/>
+        <PackageReference Include="ReactiveUI.Fody" Version="19.5.41"/>
+    </ItemGroup>
+
 </Project>

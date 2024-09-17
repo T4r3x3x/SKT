@@ -19,8 +19,8 @@ build_property.ProjectDir = C:\Users\hardb\source\repos\SKT\SKT.Avalonia\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/hardb/source/repos/SKT/SKT.Avalonia/App.axaml]
+[C:/Users/hardb/source/repos/SKT/SKT.Avalonia/Pages/Main/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/hardb/source/repos/SKT/SKT.Avalonia/Pages/Main/MainWindow.axaml]
+[C:/Users/hardb/source/repos/SKT/SKT.Avalonia/System/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

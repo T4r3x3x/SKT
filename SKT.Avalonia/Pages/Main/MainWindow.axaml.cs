@@ -1,11 +1,27 @@
 using Avalonia.Controls;
+using Avalonia.ReactiveUI;
 
-namespace SKT.Views;
+using ScottPlot.Avalonia;
 
-public partial class MainWindow : Window
+namespace SKT.Pages.Main
 {
-    public MainWindow()
+    public partial class MainWindow : ReactiveWindow<MainWindowViewModel>
     {
-        InitializeComponent();
+        public MainWindow()
+        {
+            InitializeComponent();
+            double[] dataX =
+            {
+                1, 2, 3, 4, 5
+            };
+            double[] dataY =
+            {
+                1, 4, 9, 16, 25
+            };
+
+            var avaPlot1 = this.Find<AvaPlot>("AvaPlot1");
+            avaPlot1.Plot.Add.Scatter(dataX, dataY);
+            avaPlot1.Refresh();
+        }
     }
 }
